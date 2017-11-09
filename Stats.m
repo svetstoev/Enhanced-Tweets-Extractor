@@ -3,7 +3,7 @@ close all
 clc
 
 %% Load the Data and set the variables
-Data_2012_16 = readtable('JPM_2000_16_CompleteFILE.xlsx');
+Data_2012_16 = readtable('tweets.db');
 
 % non-standardized variables
 % independent
