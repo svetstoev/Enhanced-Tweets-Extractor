@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jul 22 15:38:47 2017
+Created on Wed Nov 1 22:38:47 2017
 
-@author: Fujitsu
 """
 
 from tweepy import Stream
