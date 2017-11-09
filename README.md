@@ -1,7 +1,7 @@
 # Enhanced-Tweets-Extractor
 An algorithm which extracts tweets published by financial media entities and translates them into sentiment scores, providing live graphical representation
 
-### Please note that the work in this repository is still in progress
+### Please note that the work in this repository is still in progress and undergoing changes
 
 **1. Initial requirements**
 
