@@ -65,6 +65,16 @@ class listener(StreamListener):
             saveFile.write('\n')
             saveFile.close()
             
+            conn = sqlite3.connect('sentiments.db')
+            c = conn.cursor()
+            c.execute('''CREATE TABLE tweet
+             (tweet, sentiment score)''')
+            c.execute("INSERT INTO tweet VALUES (tweet,sentiment_value)")
+            conn.commit()
+            conn.close()
+            output.write('\n')
+            output.close()
+            
             
             return True
         
